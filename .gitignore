@@ -1,0 +1,22 @@
+# OSX leaves these everywhere on SMB shares
+._*
+
+# OSX trash
+.DS_Store
+
+# Vscode files
+.vscode
+
+# terraform files
+terraform.out
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+
+# terraform modules
+.terraform
+
+# key files
+tf_cloud_demo*
